@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.target=TextAreaOutputStream
+comment0.text=\n\ I\ found\ this\ online.\ It\ creates\ a\ console\ which\ all\ my\ messages\ print\ to.\n\ The\ .jar\ version\ doesn't\ have\ a\ terminal,\ so\ nothing\ was\ printing.\n\ This\ is\ my\ solution.\n
+comment1.params=txtara
+comment1.target=TextAreaOutputStream(javax.swing.JTextArea)
+comment2.params=txtara\ maxlin
+comment2.target=TextAreaOutputStream(javax.swing.JTextArea,\ int)
+comment3.params=
+comment3.target=void\ clear()
+comment3.text=Clear\ the\ current\ console\ text\ area.
+comment4.params=
+comment4.target=void\ close()
+comment5.params=
+comment5.target=void\ flush()
+comment6.params=val
+comment6.target=void\ write(int)
+comment7.params=ba
+comment7.target=void\ write(byte[])
+comment8.params=ba\ str\ len
+comment8.target=void\ write(byte[],\ int,\ int)
+comment9.params=ba\ str\ len
+comment9.target=java.lang.String\ bytesToString(byte[],\ int,\ int)
+numComments=10
