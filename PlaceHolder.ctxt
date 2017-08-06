@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=PlaceHolder
+comment0.text=\n\ Since\ picking\ an\ object\ removes\ it\ from\ the\ world,\ I\ need\ a\ placeholder\ that\ can\ never\ be\ picked.\n\ It\ stays\ in\ the\ world\ the\ whole\ time.\ Its\ purpose\ is\ for\ dropping\ items.\n\ I\ can't\ have\ the\ item\ that\ was\ picked\ contain\ the\ method\ to\ drop\ itself\ bc\ once\ its\ picked,\ it\ stops\ existing.\n\ In\ short,\ it\ inherits\ the\ beDropped()\ method\ from\ BagThings\ and\ calls\ it\ every\ method\ in\ case\ something\ gets\ dropped.\n\ \n\ @author\ Isabel\ Rosa\n
+comment1.params=w\ cd
+comment1.target=PlaceHolder(greenfoot.World,\ ChangeableData)
+comment1.text=\n\ Constructor\ for\ PlaceHolder\ class.\n\ Provides\ access\ to\ world\ and\ database\ and\ makes\ item\ invisible.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ PlaceHolder\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\ When\ something\ is\ dropped,\ the\ static\ variable\ drop\ becomes\ true\ and\ the\ static\ variable\ bt\ is\ set\ to\ the\ item\ that\ was\ dropped.\n\ The\ item\ is\ added\ back\ into\ the\ world\ and\ its\ drop\ message\ is\ called.\ The\ variables\ are\ set\ back\ to\ false\ and\ null,\ respectively.\n
+numComments=3

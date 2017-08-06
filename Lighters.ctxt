@@ -1,0 +1,4 @@
+#BlueJ class context
+comment0.target=Lighters
+comment0.text=\n\ This\ class\ is\ solely\ to\ contain\ the\ objects\ that\ deal\ with\ lights.\n\ Its\ children\ either\ light\ up\ spots\ that\ are\ dark\ or\ darken\ spots\ that\ are\ light.\n\ This\ just\ makes\ it\ easier\ to\ code\ (parameters\ can\ be\ more\ vague).\n\ \n\ @author\ Isabel\ Rosa\n
+numComments=1

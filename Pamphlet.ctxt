@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Pamphlet
+comment0.text=\n\ This\ is\ basically\ an\ information\ class.\n\ To\ learn\ ore\ about\ some\ of\ the\ characters\ or\ the\ art\ in\ the\ game,\ the\ player\ can\ read\ the\ pamphlet.\n\ \n\ @author\ Isabel\ Rosa\n
+comment1.params=
+comment1.target=Pamphlet()
+comment1.text=\n\ Constructor\ for\ Pamphlet\ class.\n\ Scales\ the\ image.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ Pamphlet\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\ If\ the\ player\ presses\ "r"\ when\ standing\ on\ the\ pamphlet,\ they\ can\ read\ about\ Goya.\n\ If\ they\ press\ "a",\ they\ can\ learn\ more\ about\ the\ character\ A.\n
+numComments=3

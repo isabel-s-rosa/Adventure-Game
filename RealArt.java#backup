@@ -1,0 +1,37 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class RealArt here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class RealArt extends Art{
+    private int id;
+    private World w;
+    private ChangeableData cd;
+    private final int VALUE = 10000000;
+    
+    /**
+     * Act - do whatever the Art wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act(){
+        //String key = Greenfoot.getKey();
+        boolean p=bePicked();
+        if(p)
+            BagThings.gotPicked=p;
+        //beDropped();
+    }
+    
+    public RealArt(int id, World w, ChangeableData cd){
+        super(id, w, cd);
+        this.id=id;
+        this.w=w;
+        this.cd=cd;
+    }
+    
+    public int getValue(){
+        return VALUE;
+    }
+}

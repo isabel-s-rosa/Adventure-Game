@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Art
+comment0.text=\n\ This\ class\ contains\ the\ methods\ for\ pieces\ of\ art.\ Basically\ they\ get\ picked\ up\ when\ the\ player\ decides.\n\ \n\ @author\ Isabel\ Rosa\n
+comment1.params=w\ cd
+comment1.target=Art(greenfoot.World,\ ChangeableData)
+comment1.text=\n\ Constructor\ for\ Art\ class.\n\ Provides\ access\ for\ world\ and\ database\ as\ well\ as\ scales\ the\ image.\n
+comment2.params=
+comment2.target=int\ getValue()
+comment2.text=\n\ Returns\ the\ value\ of\ the\ art.\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Returns\ the\ name\ of\ the\ object.\n
+comment4.params=
+comment4.target=int\ getWeight()
+comment4.text=\n\ Returns\ the\ weight.\n
+comment5.params=
+comment5.target=boolean\ bePicked()
+comment5.text=\n\ To\ pick\ an\ item,\ the\ generic\ superclass\ method\ is\ called\ first.\n\ If\ the\ superclass\ method\ returns\ true\ (the\ item\ was\ indeed\ picked\ up),\ then\ the\ specific\ boolean\ array\ housing\ art\ info\ is\ changed.\n\ A\ message\ is\ printed,\ and\ the\ method\ returns\ true\ if\ the\ item\ was\ picked,\ otherwise\ false.\n
+comment6.params=
+comment6.target=void\ droppedMsg()
+comment6.text=\n\ This\ method\ changes\ the\ boolean/coordinate\ arrays\ in\ the\ database\ by\ calling\ the\ superclass\ method.\n\ Then,\ it\ prints\ out\ a\ message.\n
+numComments=7
