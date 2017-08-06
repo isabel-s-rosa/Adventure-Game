@@ -1,0 +1,64 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+import java.util.List;
+/**
+ * Write a description of class Key here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Key extends BagThings{
+    private int id;
+    private World w;
+    private ChangeableData cd;
+    private final int VALUE = 75;
+    private final int WEIGHT = 5;
+
+    public Key(int id, World w, ChangeableData cd){
+        super(id, w, cd);
+        this.w=w;
+        this.cd=cd;
+        this.id=id;
+        GreenfootImage image = getImage();
+        image.scale(30, 15);
+        setImage(image);
+    }
+
+    /**
+     * Act - do whatever the Key wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act(){
+        //String key = Greenfoot.getKey();
+        boolean p=bePicked();
+        if(p)
+            BagThings.gotPicked=p;
+        //beDropped();
+    }
+
+    public int getValue(){
+        return VALUE;
+    }
+
+    public String toString(){
+        return "key";
+    }
+
+    public int getWeight(){
+        return WEIGHT;
+    }
+
+    public boolean bePicked(){
+        boolean pick = super.bePicked();
+        if(pick){
+            int roomNum = w.getObjects(Room.class).get(0).getNum();
+            cd.changeBooleanArray(roomNum, false, "key");
+            System.out.println("You picked up a key. The weight of your bag is now " + Player.getBagWeight());
+        }
+        return pick;
+    }
+
+    public void droppedMsg(){
+        super.droppedMsg("key");
+        System.out.println("You dropped a key. They weight of your bag is now " + Player.getBagWeight());
+    }
+}

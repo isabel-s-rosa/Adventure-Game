@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Magnifier
+comment0.text=\n\ This\ is\ another\ item\ that\ can\ be\ picked\ up.\ Its\ presence\ in\ the\ bag/room\ is\ necessary\ to\ inspect\ a\ piece\ of\ art.\n\ \n\ @author\ Isabel\ Rosa\n
+comment1.params=w\ cd
+comment1.target=Magnifier(greenfoot.World,\ ChangeableData)
+comment1.text=\n\ Constructor\ for\ Magnifier\ class.\n\ Provides\ access\ to\ world\ and\ database\ and\ scales\ the\ image.\n
+comment2.params=
+comment2.target=int\ getValue()
+comment2.text=\n\ Returns\ the\ value\ (same\ as\ the\ weight,\ which\ is\ why\ I\ have\ a\ combined\ variable).\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Returns\ the\ object\ in\ String\ form.\n
+comment4.params=
+comment4.target=int\ getWeight()
+comment4.text=\n\ Returns\ the\ weight.\n
+comment5.params=
+comment5.target=boolean\ bePicked()
+comment5.text=\n\ To\ pick\ an\ item,\ the\ generic\ superclass\ method\ is\ called\ first.\n\ If\ the\ superclass\ method\ returns\ true\ (the\ item\ was\ indeed\ picked\ up),\ then\ the\ specific\ boolean\ array\ housing\ magnifier\ info\ is\ changed.\n\ A\ message\ is\ printed,\ and\ the\ method\ returns\ true\ if\ the\ item\ was\ picked,\ otherwise\ false.\n
+comment6.params=
+comment6.target=void\ droppedMsg()
+comment6.text=\n\ This\ method\ changes\ the\ boolean/coordinate\ arrays\ in\ the\ database\ by\ calling\ the\ superclass\ method.\n\ Then,\ it\ prints\ out\ a\ message.\n
+numComments=7
