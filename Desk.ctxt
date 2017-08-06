@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=Desk
-comment0.text=\n\ This\ class\ doesn't\ do\ anything,\ it\ just\ has\ a\ picture\ of\ a\ desk\ to\ be\ displayed\ where\ I\ want\ it.\n\ \n\ @author\ Isabel\ Rosa\n
-comment1.params=
-comment1.target=Desk()
-comment1.text=\n\ Constructor\ for\ Desk\ class.\n\ Scales\ image.\n
-numComments=2
