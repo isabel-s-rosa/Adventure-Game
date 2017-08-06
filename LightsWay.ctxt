@@ -1,7 +1,0 @@
-#BlueJ class context
-comment0.target=LightsWay
-comment0.text=\n\ This\ class\ is\ used\ to\ light\ up\ dark\ rooms.\n\ \n\ @author\ Isabel\ Rosa\n
-comment1.params=
-comment1.target=void\ act()
-comment1.text=\n\ Act\ -\ do\ whatever\ the\ LightsWay\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\ This\ turns\ off\ the\ opacity\ of\ any\ black\ square\ it\ may\ be\ standing\ on.\n\ It\ gives\ the\ appearance\ of\ lighting\ a\ path.\n
-numComments=2
