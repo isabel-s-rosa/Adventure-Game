@@ -43,6 +43,8 @@ public class MyWorld extends World implements Data{
      */
     private void startMessage(){
         if(startInt==0){
+            System.out.print("\033[H\033[2J");
+            System.out.flush();
             JOptionPane.showMessageDialog(null, "You are the well-renowned art dealer, I.\nPress the arrow keys to move yourself, the person in the middle of the room.\nRun over a person to hear what they have to say.\nYou have four days to pay off your mortgage debt of $10,000,100, or else you lose your house.\nI haven't taken my econ class yet so I have a poor grasp of how mortgages work and also how to spell mortgage but I saw a movie with a plot along these lines so I turned it into a game.\nGood luck!");
             startInt=1;
         }
