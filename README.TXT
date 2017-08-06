@@ -1,12 +1,7 @@
 ------------------------------------------------------------------------
-This is the project README file. Here, you should describe your project.
-Tell the reader (someone who does not know anything about this project)
-all he/she needs to know. The comments should usually include at least:
+This is an adventure game I made! I call it "I", after the main character.
+I made this over the summer for fun/practice.
+Final draft published on Saturday, August 5, 2017.
+I believe you need Greenfoot to run it. Press "act" to start.
+Author: Isabel Rosa
 ------------------------------------------------------------------------
-
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
-USER INSTRUCTIONS:
