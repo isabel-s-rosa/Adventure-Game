@@ -1,0 +1,64 @@
+import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
+
+/**
+ * Write a description of class Flashlight here.
+ * 
+ * @author (your name) 
+ * @version (a version number or a date)
+ */
+public class Flashlight extends BagThings{
+    private int id;
+    private World w;
+    private ChangeableData cd;
+    private final int VALUE = 10;
+    private final int WEIGHT = 7;
+
+    public Flashlight(int id, World w, ChangeableData cd){
+        super(id, w, cd);
+        this.w=w;
+        this.cd=cd;
+        this.id=id;
+        GreenfootImage image = getImage();
+        image.scale(25, 25);
+        setImage(image);
+    }
+    
+    public int getValue(){
+        return VALUE;
+    }
+
+    /**
+     * Act - do whatever the Key wants to do. This method is called whenever
+     * the 'Act' or 'Run' button gets pressed in the environment.
+     */
+    public void act(){
+        //String key = Greenfoot.getKey();
+        boolean p=bePicked();
+        if(p)
+            BagThings.gotPicked=p;
+        //beDropped();
+    }
+
+    public String toString(){
+        return "flashlight";
+    }
+
+    public int getWeight(){
+        return WEIGHT;
+    }
+
+    public boolean bePicked(){
+        boolean pick = super.bePicked();
+        if(pick){
+            int roomNum = w.getObjects(Room.class).get(0).getNum();
+            cd.changeBooleanArray(roomNum, false, "flashlight");
+            System.out.println("You picked up a flashlight. The weight of your bag is now " + Player.getBagWeight());
+        }
+        return pick;
+    }
+
+    public void droppedMsg(){
+        super.droppedMsg("flashlight");
+        System.out.println("You dropped a flashlight. They weight of your bag is now " + Player.getBagWeight());
+    } 
+}

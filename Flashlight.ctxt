@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=Flashlight
+comment0.text=\n\ The\ flashlight\ is\ another\ object\ that\ can\ be\ picked\ up.\ Its\ presence\ in\ the\ player's\ bag\ is\ necessary\ to\ use\ it.\n\ \n\ @author\ Isabel\ Rosa\n
+comment1.params=w\ cd
+comment1.target=Flashlight(greenfoot.World,\ ChangeableData)
+comment1.text=\n\ Constructor\ for\ Flashlight\ class.\n\ Provides\ access\ to\ world\ and\ databse\ and\ scales\ image.\n
+comment2.params=
+comment2.target=int\ getValue()
+comment2.text=\n\ Returns\ the\ value\ of\ a\ flashlight.\n
+comment3.params=
+comment3.target=java.lang.String\ toString()
+comment3.text=\n\ Returns\ the\ String\ name\ of\ this\ item.\n
+comment4.params=
+comment4.target=int\ getWeight()
+comment4.text=\n\ Returns\ the\ weight\ of\ the\ item.\n
+comment5.params=
+comment5.target=boolean\ bePicked()
+comment5.text=\n\ To\ pick\ an\ item,\ the\ generic\ superclass\ method\ is\ called\ first.\n\ If\ the\ superclass\ method\ returns\ true\ (the\ item\ was\ indeed\ picked\ up),\ then\ the\ specific\ boolean\ array\ housing\ flashlight\ info\ is\ changed.\n\ A\ message\ is\ printed,\ and\ the\ method\ returns\ true\ if\ the\ item\ was\ picked,\ otherwise\ false.\n
+comment6.params=
+comment6.target=void\ droppedMsg()
+comment6.text=\n\ This\ method\ changes\ the\ boolean/coordinate\ arrays\ in\ the\ database\ by\ calling\ the\ superclass\ method.\n\ Then,\ it\ prints\ out\ a\ message.\n
+numComments=7

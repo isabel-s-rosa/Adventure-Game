@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=GetKeyDown
+comment0.text=\n\ This\ class\ is\ to\ prevent\ annoying\ repeat\ messages.\n\ This\ way,\ when\ the\ player\ hits\ a\ button,\ it\ only\ registers\ once,\ instead\ of\ around\ 20\ times.\n\ If\ I\ don't\ use\ this,\ it\ re-registers\ the\ key\ being\ down\ every\ act\ cycle.\n\ Since\ act\ cycles\ are\ much\ faster\ than\ it\ takes\ a\ human\ to\ let\ go\ of\ a\ key,\ commands\ repeated\ a\ lot.\n\ However,\ the\ getKey()\ method\ only\ works\ once\ per\ act\ cycle\:\ otherwise\ it\ returns\ null.\n\ Due\ to\ this,\ I\ had\ to\ call\ it\ only\ once\ per\ act\ cycle\ and\ then\ store\ it\ in\ a\ variable\ everyone\ can\ see.\n\ This\ stopped\ the\ repeats\ and\ made\ it\ easy\ to\ access\ the\ key\ being\ pressed.\n\ \n\ @author\ Isabel\ Rosa\n
+comment1.params=w
+comment1.target=GetKeyDown(greenfoot.World)
+comment1.text=\n\ Constructor\ for\ GetKeyDown\ class.\n\ This\ makes\ it\ invisible\ so\ the\ player\ can't\ see\ it.\n
+comment2.params=
+comment2.target=void\ act()
+comment2.text=\n\ Act\ -\ do\ whatever\ the\ GetKey\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\ Gets\ the\ key\ being\ pressed.\n
+numComments=3
