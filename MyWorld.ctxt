@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=MyWorld
+comment0.text=\n\ This\ is\ the\ class\ that\ sets\ everything\ up.\n\ It\ creates\ the\ world\ and\ gives\ an\ introduction.\n\ Throughout\ the\ game,\ it\ sets\ the\ variable\ gotPicked\ to\ false\ at\ the\ start\ of\ every\ round,\n\ signifying\ that\ nothing\ has\ yet\ been\ picked\ up\ this\ round.\n\ It\ also\ times\ the\ game\ and\ closes\ out\ after\ four\ minutes\ ("days").\n\ \n\ @author\ Isabel\ Rosa\n
+comment1.params=
+comment1.target=MyWorld()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ MyWorld.\n\ Sets\ world\ size,\ brings\ certain\ objects\ to\ front,\ and\ sets\ order\ of\ being\ called.\n\ Creates\ access\ to\ database,\ makes\ the\ start\ room,\ adds\ the\ player,\ creates\ access\ to\ which\ key\ is\ down,\ and\ prepares\ to\ start\ timer.\n
+comment2.params=
+comment2.target=void\ startMessage()
+comment2.text=\n\ Displays\ the\ starting\ instructions.\n
+comment3.params=
+comment3.target=void\ act()
+comment3.text=\n\ Act\ -\ do\ whatever\ the\ Room\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n\ Displays\ start\ message\ when\ the\ game\ starts\ and\ sets\ gotPicked\ to\ false\ to\ signify\ nothing\ has\ yet\ been\ picked\ up\ this\ round.\n\ Times\ the\ game\ and\ shuts\ down\ if\ player\ doesn't\ finish\ in\ time.\n
+numComments=4
