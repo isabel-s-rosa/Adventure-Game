@@ -59,7 +59,7 @@ public class MyWorld extends World implements Data{
         BagThings.gotPicked=false;
         if(startTime==-1)
             startTime=System.currentTimeMillis();
-        else if((System.currentTimeMillis()-startTime)%60000<15){
+        else if((System.currentTimeMillis()-startTime)%120000<15){
             daysLeft--;
             if(daysLeft>0)
                 System.out.println("A day has passed. You have " + daysLeft + " days left.");
