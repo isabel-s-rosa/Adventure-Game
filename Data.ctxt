@@ -1,4 +1,0 @@
-#BlueJ class context
-comment0.target=Data
-comment0.text=\n\ This\ is\ my\ database\ for\ information\ that\ will\ never\ change.\n\ Things\ like\ room\ names,\ doors,\ and\ relative\ locations\ are\ stored\ here.\n\ Coordinates\ for\ objects\ that\ are\ locked\ in\ place\ also\ stay\ here.\n\ Rooms\ are\ also\ dark\ or\ not\ dark\ permanently,\ so\ that,\ too,\ is\ stored\ here.\n\ \n\ @author\ Isabel\ Rosa\n
-numComments=1
